@@ -1,0 +1,41 @@
+
+h4{
+    color: green;
+}
+body{
+    background-color: aqua;
+
+
+}
+
+.boy{
+    background-color: gray;
+    color: white;
+    padding: 40px;
+}
+
+
+.boy-text{
+width: 450px;
+font-size: 25px;
+
+}
+
+.yeah{
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+}
+
+
+.manga{
+background-color: black;
+color: white;
+padding: 50px;
+border-radius: 30px;
+font-size: 30px;
+width: 600px;
+
+
+}
