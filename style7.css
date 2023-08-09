@@ -5,9 +5,7 @@ header{
 }
 
 .нашикомпьютеры{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+   
 }
 
 
@@ -27,7 +25,7 @@ padding: 40px;
 border-radius: 50px;
 width: 540px;
 line-height: 30px;
-margin-top: 400px;
+margin: 230px 0 0 0;
 }
 
 .photo{
@@ -36,12 +34,12 @@ margin-top: 400px;
 
 .vbn{
     display: block;
-  background-color: black;
-  color: white;
-  border-radius: 30px;
-  padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
   width: 120px;
-  margin-top: 380px ;
+  margin: 0px 0 150px 0px;
 }
 
 .телефоны{
@@ -50,13 +48,92 @@ margin-top: 400px;
 }
 
 .game{
+  text-align: center;
+}
+
+.comp-info{
     display: flex;
-    justify-content: center;
-    flex-direction: row; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.comp1:nth-child(1) > .comp-title{
+    margin: 15px 0px 0px 68px ;
+}
+
+.comp1:nth-child(2) > .comp-title{
+    margin: 15px 0 0 96px;
+}
+
+.comp1:nth-child(3) > .comp-title{
+    margin: 15px 0 0 109px;
+}
+
+.comp1:nth-child(4) > .comp-title{
+    margin: 15px 0 0 80px;
+    position: relative;
+    left: 7px;
+}
+
+.csgo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comp1:nth-child(1) > .comp-info{
+   margin: 9px 0 0 69px;
+   line-height: 15px;
+}
+
+.comp1:nth-child(2) > .comp-info{
+    margin: 10px 0 0 96px;
+    line-height: 15px;
+}
+
+.comp1:nth-child(3) > .comp-info{
+    margin: 7px 0 0 109px;
+    line-height: 15px;
+}
+
+.comp1:nth-child(4) > .comp-info{
+    margin: 7px 0 0 87px;
+    line-height: 15px;
+}
+
+.comp1:nth-child(1) > .comp-btn{
+    margin: 20px 0px 0px 68px;
 }
 
 
+.comp1:nth-child(2) > .comp-btn{
+    margin: 20px 0 0 96px;
+}
 
+.comp1:nth-child(3) > .comp-btn{
+    margin: 20px 0 0 109px;
+}
+
+.comp1:nth-child(4) > .comp-btn{
+    margin: 20px 0 0 87px;
+}
+
+
+.comp-btn{
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+
+.csid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
    
 
