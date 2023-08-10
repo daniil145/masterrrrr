@@ -135,5 +135,14 @@ margin: 230px 0 0 0;
     flex-direction: column;
 }
 
+.foter{
+    background-color: gray;
+    color: white;
+}
+
+.wow{
+    display: flex;
+    justify-content: center;
+}
    
 
