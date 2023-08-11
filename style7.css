@@ -46,14 +46,17 @@ height: 230px;
     color: white;
     border-radius: 30px;
     padding: 20px;
-  width: 120px;
+  width: 369px;
   margin: 0px 0 220px 0px;
+  text-align: center;
+  font-size: 25px;
 }
 
 
 
 .game{
   text-align: center;
+  margin-bottom: 170px;
 }
 
 .comp-info{
@@ -64,62 +67,85 @@ height: 230px;
 
 .comp1:nth-child(1) > .comp-title{
     margin: 15px 0px 0px 68px ;
+    position: relative;
+    right: 30px;
 }
 
 .comp1:nth-child(2) > .comp-title{
-    margin: 15px 0 0 96px;
+    margin: 15px 120px 0 96px;
+    position: relative;
+    right: 42px;
 }
 
 .comp1:nth-child(3) > .comp-title{
-    margin: 15px 0 0 109px;
+    margin: 15px 20px 0 109px;
+    position: relative;
+    right: 35px;
 }
 
 .comp1:nth-child(4) > .comp-title{
-    margin: 15px 0 0 80px;
+    margin: 15px 20px 0 80px;
     position: relative;
-    left: 7px;
+    right: 50px;
+    
 }
 
 .csgo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .comp1:nth-child(1) > .comp-info{
    margin: 9px 0 0 69px;
+   position: relative;
+   right: 30px;
    line-height: 15px;
 }
 
 .comp1:nth-child(2) > .comp-info{
     margin: 10px 0 0 96px;
+    position: relative;
+    right: 38px;
     line-height: 15px;
 }
 
 .comp1:nth-child(3) > .comp-info{
     margin: 7px 0 0 109px;
+    position: relative;
+    right: 35px;
     line-height: 15px;
 }
 
 .comp1:nth-child(4) > .comp-info{
     margin: 7px 0 0 87px;
+    position: relative;
+    right: 52px;
     line-height: 15px;
 }
 
 .comp1:nth-child(1) > .comp-btn{
     margin: 20px 0px 0px 68px;
+    position: relative;
+    right: 30px;
 }
 
 
 .comp1:nth-child(2) > .comp-btn{
     margin: 20px 0 0 96px;
+    position: relative;
+    right: 40px;
 }
 
 .comp1:nth-child(3) > .comp-btn{
     margin: 20px 0 0 109px;
+    position: relative;
+    right: 35px;
 }
 
 .comp1:nth-child(4) > .comp-btn{
     margin: 20px 0 0 87px;
+    position: relative;
+    right: 53px;
 }
 
 
@@ -129,7 +155,7 @@ height: 230px;
     color: white;
     border-radius: 25px;
     padding: 10px;
-    width: 100px;
+    width: 269px;
     text-align: center;
 }
 
@@ -147,7 +173,7 @@ height: 230px;
 .wow{
     display: inline-block;
     position: relative;
-    margin: 115px 0 0 0;
+    margin: 130px 0 0 0;
 }
 
 
@@ -155,20 +181,23 @@ height: 230px;
 .drink{
     display: flex;
     flex-direction: column;
+    margin: 15px 0 35px 65px;
 }
 
 .instatg{
     display: flex;
+    margin-top: 17px;
 }   
 
 .socc{
     display: flex;
     flex-direction: column;
-    margin: 0 60px 0 0;
+    margin: 15px 200px 0 0;
 }
 
 .телефон{
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .phone-info{
@@ -179,20 +208,26 @@ height: 230px;
 
 .phone1:nth-child(1) > .phone-title{
     margin: 15px 0px 0px 68px ;
+    position: relative;
+    right: 44px;
 }
 
 .phone1:nth-child(2) > .phone-title{
     margin: 15px 0 0 96px;
+    position: relative;
+    right: 67px;
 }
 
 .phone1:nth-child(3) > .phone-title{
     margin: 15px 0 0 109px;
+    position: relative;
+    right: 43px;
 }
 
 .phone1:nth-child(4) > .phone-title{
     margin: 15px 0 0 80px;
     position: relative;
-    left: 7px;
+    right: 33px;   
 }
 
 .dota{
@@ -202,39 +237,59 @@ height: 230px;
 
 .phone1:nth-child(1) > .phone-info{
     margin: 9px 0 0 69px;
+    position: relative;
+    right: 44px;
     line-height: 15px;
  }
  
  .phone1:nth-child(2) > .phone-info{
      margin: 10px 0 0 96px;
+     position: relative;
+    right: 60px;
      line-height: 15px;
  }
  
  .phone1:nth-child(3) > .phone-info{
      margin: 7px 0 0 109px;
+     position: relative;
+    right: 42px;
      line-height: 15px;
  }
  
  .phone1:nth-child(4) > .phone-info{
      margin: 7px 0 0 87px;
+     position: relative;
+    right: 37px;
      line-height: 15px;
  }
  
  .phone1:nth-child(1) > .phone-btn{
-     margin: 20px 0px 0px 68px;
+     margin: 10px 0px 0px 68px;
+     position: relative;
+    right: 44px;
+    position: relative;
+    top: 5px;
  }
  
  
  .phone1:nth-child(2) > .phone-btn{
      margin: 20px 0 0 96px;
+     position: relative;
+    right: 60px;
+    position: relative;
+    bottom: 9px;
  }
  
  .phone1:nth-child(3) > .phone-btn{
      margin: 20px 0 0 109px;
+     position: relative;
+    right: 42px;
  }
  
  .phone1:nth-child(4) > .phone-btn{
      margin: 20px 0 0 87px;
+     position: relative;
+    right: 37px;
  }
  
  .phone-btn{
@@ -243,7 +298,7 @@ height: 230px;
     color: white;
     border-radius: 25px;
     padding: 10px;
-    width: 100px;
+    width: 269px;
     text-align: center;
 } 
 
@@ -254,26 +309,27 @@ height: 230px;
     border-radius: 30px;
     width: 800px;
     line-height: 30px;
-    margin: 70px 0 0 600px;
+    margin: 65px 0 0 600px;
     font-size: 30px;
     }
  
  .stay{
-    font-size: 15px;
+    font-size: 20px;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border-radius: 30px;
-    width: 140px;
+    width: 269px;
     height: 20px;
     text-align: center;
-    margin: 0 0 100px 1000px;
+    margin: 140px 0 100px 900px;
  }
 
 .together{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin: 100px 90px 0 0;
 }
  
 .soloway{
@@ -286,6 +342,10 @@ height: 230px;
     margin: 0 250px 0 0;
 }
 
+footer{
+    margin-top: 200px;
+}
 
-
-
+.сеть{
+    margin-left: 15px;
+}
