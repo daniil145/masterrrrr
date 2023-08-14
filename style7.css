@@ -336,10 +336,11 @@ height: 230px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-left: 100px;
 }
 
 .blue{
-    margin: 0 250px 0 0;
+    margin: 0 250px 0 160px;
 }
 
 footer{
@@ -348,4 +349,23 @@ footer{
 
 .сеть{
     margin-left: 15px;
+}
+
+
+.cover-block::before {
+    display: block;
+}
+.window-position {
+    display: block;
+}
+
+.finish{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    height: 400px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
